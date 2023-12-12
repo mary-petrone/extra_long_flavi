@@ -1,0 +1,197 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=95;
+	taxlabels
+	ANW09737_NS2_3
+	FJFL_Tamana_bat_virus_isolate_P3_Vero
+	FJFL_Waxsystermes_virus
+	FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf2
+	FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_3_orfNSP2
+	FJJI_Hainan_jingmen-like_virus_isolate_s99-976258_segment_3_orfNSP2
+	FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_3_orfNSP2
+	FJJI_Takachi_virus_IM-OI110_segment_3_orfNSP2
+	FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_3_orfNSP2
+	FJUN_Fluviflavili_virus_isolate_PF1_segment_1_orfNS3NS5
+	FJUN_Hangzhou_flavivirus_3_isolate_YWLFY92
+	PLLG_Apis_flavivirus_isolate_RI-A
+	PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1
+	PLLG_Beihai_barnacle_viurs_1_strain_BHGZ
+	PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2
+	PLLG_Bole_tick_virus_4_strain_BLP-1
+	PLLG_Carrot_flavi-like_virus_1_isolate_744
+	PLLG_Coptis_teeta_flavi-like_virus
+	PLLG_Culex_tritaeniorhynchus_flavi-like_virus_17CxITNGK
+	PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2
+	PLLG_Diaphorina_citri_flavi-like_virus
+	PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316
+	PLLG_Frankliniella_occidentalis_flavi-like_virus_1
+	PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91
+	PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf2
+	PLLG_Gamboa_mosquito_virus_strain_GW
+	PLLG_Gentian_Kobu-sho-associated_virus
+	PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086
+	PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485
+	PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827
+	PLLG_Hangzhou_nephotettix_cincticeps_flavivirus_1_isolate_HWYCFY169513
+	PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8
+	PLLG_Haseki_tick_virus_strain_Novosibirsk-2020
+	PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1
+	PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01
+	PLLG_Odonatan_flavi-related_virus_isolate_OKIAV365
+	PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2
+	PLLG_Shayang_fly_virus_4_strain_SYCY
+	PLLG_Shuangao_lacewing_virus_2_strain_SCL
+	PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1
+	PLLG_Sonchus_asper_flavi-like_virus
+	PLLG_Soybean_cyst_nematode_virus_5_strain_ScV5
+	PLLG_Tacheng_tick_virus_8_strain_TCP-2
+	PLLG_Trinbago_virus_isolate_TTP-Pool-4
+	PLLG_Wuhan_centipede_virus_strain_WHWG-11
+	PLLG_Xiangshan_flavi-like_virus_1
+	PLLG_Xiangshan_flavi-like_virus_2
+	PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7
+	PLLG_Zhangjiakou_Flavi_tick_virus_1
+	PLPV_Atypical_porcine_pestivirus
+	PLPV_Bat_pestivirus_BtSk-PestV-1GX2017
+	PLPV_Border_disease_virus_X818
+	PLPV_Bovine_viral_diarrhea_virus_1
+	PLPV_Bovine_viral_diarrhea_virus_2
+	PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen
+	PLPV_Classical_swine_fever_virus
+	PLPV_Dongyang_pangolin_virus_isolate_DYCS
+	PLPV_Frog_pestivirus
+	PLPV_Glass_knifefish_pestivirus
+	PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1
+	PLPV_Kioloa_rodent_pestivirus_isolate_SD7
+	PLPV_Linda_virus_strain_Austria1
+	PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018
+	PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018
+	PLPV_Pestivirus_Burdur05-TR
+	PLPV_Pestivirus_P179Tpangolin2018
+	PLPV_Pestivirus_P182Tpangolin2018
+	PLPV_Pestivirus_PG-2
+	PLPV_Pestivirus_giraffe-1_H138
+	PLPV_Pestivirus_reindeer-1_V60-Krefeld
+	'PLPV_Pestivirus_sp._isolate_ovineIt338710-32017'
+	PLPV_Pestivirus_strain_Aydin04-TR
+	PLPV_Phocoena_pestivirus_isolate_NS170386
+	PLPV_Porcine_pestivirus_isolate_Bungowannah
+	PLPV_Pronghorn_antelope_pestivirus
+	PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014
+	PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014
+	PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG
+	PLPV_Wenling_pesti-like_virus_2_strain_DHHSYSCGS2055
+	PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr
+	PLPV_Wenzhou_pesti-like_virus_1_strain_WZSS31331
+	PLPV_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372
+	PLPV_Zikole_virus
+	PLUN_Shayang_spider_virus_4_strain_SYZZ-1
+	PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3
+	'Tun002_Pool13.k141_35740_put_NS2_3'[&!color=#ff0080]
+	UNUN_Diatom_colony_associated_ssRNA_virus_1
+	UNUN_Inner_Mongolia_sediment_flavi-like_virus_3
+	UNUN_Xinjiang_sediment_flavi-like_virus_3_isolate_200-283222
+	WEC89329_NS2_3
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (FJJI_Takachi_virus_IM-OI110_segment_3_orfNSP2:0.116347,FJJI_Yanggou_tick_virus_strain_Erzin14-T20074_segment_3_orfNSP2:0.115629,((FJJI_Jingmen_tick_virus_isolate_JMTVPteropus_lyleiCambodia_segment_3_orfNSP2:0.229989,FJJI_Guangdong_Jingmen-like_virus_isolate_118R-174486_segment_3_orfNSP2:0.267959)[&label=90]:0.04531,(FJJI_Hainan_jingmen-like_virus_isolate_s99-976258_segment_3_orfNSP2:1.27695,((((FJFL_Waxsystermes_virus:0.946854,FJFL_Wenzhou_shark_flavivirus_strain_WZSS16343_orf2:1.186767)[&label=100]:1.495277,FJFL_Tamana_bat_virus_isolate_P3_Vero:1.645893)[&label=63]:0.30429,(FJUN_Fluviflavili_virus_isolate_PF1_segment_1_orfNS3NS5:2.902782,((((((PLPV_Wenzhou_pesti-like_virus_1_strain_WZSS31331:1.221426,PLPV_Wenling_pesti-like_virus_2_strain_DHHSYSCGS2055:1.591416)[&label=100]:0.751071,PLPV_Xiamen_fanray_pesti-like_virus_strain_XMTSYG10372:1.899405)[&label=100]:0.744177,((UNUN_Xinjiang_sediment_flavi-like_virus_3_isolate_200-283222:0.700699,UNUN_Inner_Mongolia_sediment_flavi-like_virus_3:0.63354)[&label=100]:0.990247,UNUN_Diatom_colony_associated_ssRNA_virus_1:1.897265)[&label=100]:1.812761)[&label=60]:0.205653,(((((((PLLG_Zhangjiakou_Flavi_tick_virus_1:0.054304,(PLLG_Trinbago_virus_isolate_TTP-Pool-4:0.040903,(PLLG_Haseki_tick_virus_strain_Novosibirsk-2020:0.025463,PLLG_Dermacentor_reticulatus_pestivirus-like_virus_1_isolate_CT2:0.016575)[&label=100]:0.02305)[&label=84]:0.013897)[&label=97]:0.020872,PLLG_Bole_tick_virus_4_strain_BLP-1:0.020858)[&label=100]:0.788597,(PLLG_Hangzhou_ochthera_mantis_flavivirus_1_isolate_SYFY8:1.305719,PLLG_Bemisia_tabaci_pesti-like_virus_1_isolate_ZJU-Q2:1.6335)[&label=70]:0.302884)[&label=100]:1.031803,(PLUN_Xinzhou_spider_virus_3_strain_XZZZ-3:1.471298,PLUN_Shayang_spider_virus_4_strain_SYZZ-1:0.956675)[&label=100]:1.617721)[&label=99]:0.655985,'Tun002_Pool13.k141_35740_put_NS2_3':2.606)[&label=62]:0.100598,PLLG_Beihai_barnacle_viurs_1_strain_BHGZ:2.80084)[&label=59]:0.111957,((((((PLLG_Fushun_acrida_cinerea_flavivirus_1_isolate_ZHJJHFS91:2.16422,PLLG_Hangzhou_nephotettix_cincticeps_flavivirus_1_isolate_HWYCFY169513:1.50665)[&label=97]:0.602628,(((((PLLG_Shayang_fly_virus_4_strain_SYCY:1.144541,PLLG_Culex_tritaeniorhynchus_flavi-like_virus_17CxITNGK:1.10753)[&label=100]:0.70652,PLLG_Shuangao_lacewing_virus_2_strain_SCL:2.159416)[&label=83]:0.364785,((PLLG_Xiangshan_flavi-like_virus_2:1.181697,PLLG_Xiangshan_flavi-like_virus_1:1.25116)[&label=99]:0.382611,PLLG_Fushun_laodelphax_striatellus_flavivirus_1_isolate_HFSFS147_orf2:1.877863)[&label=83]:0.402884)[&label=79]:0.293194,PLLG_Gamboa_mosquito_virus_strain_GW:1.785296)[&label=48]:0.11077,(PLLG_Sitobion_miscanthi_flavi-like_virus_1_07BaA1:0.448994,PLLG_Macrosiphum_euphorbiae_virus_1_isolate_K01:0.437432)[&label=100]:1.513472)[&label=85]:0.250879)[&label=46]:0.087722,PLLG_Sanxia_water_strider_virus_6_strain_SYSZZ-2:2.587189)[&label=100]:0.708935,PLLG_Hangzhou_flavivirus_1_isolate_FSFY137086:2.893494)[&label=96]:0.36268,(((PLLG_Wuhan_centipede_virus_strain_WHWG-11:2.357454,PLLG_Xinzhou_spider_virus_2_strain_XZZZ-7:2.083872)[&label=63]:0.488969,((((PLLG_Apis_flavivirus_isolate_RI-A:2.032313,PLLG_Odonatan_flavi-related_virus_isolate_OKIAV365:1.97242)[&label=74]:0.296846,((PLLG_Sonchus_asper_flavi-like_virus:0.21084,PLLG_Coptis_teeta_flavi-like_virus:0.184098)[&label=100]:0.502535,(PLLG_Gentian_Kobu-sho-associated_virus:0.898251,PLLG_Carrot_flavi-like_virus_1_isolate_744:0.671574)[&label=100]:0.289953)[&label=100]:0.615228)[&label=57]:0.22777,((PLLG_Hangzhou_frankliniella_intonsa_flavivirus_1_isolate_JM1FY93485:1.565633,(PLLG_Hangzhou_frankliniella_intonsa_flavivirus_2_isolate_JM1FY91827:0.91578,PLLG_Frankliniella_occidentalis_flavi-like_virus_1:0.754846)[&label=100]:0.61893)[&label=100]:0.895239,PLLG_Atrato_Flavi-like_virus_1_strain_Cx_1773-1:2.73601)[&label=79]:0.362415)[&label=44]:0.14077,(PLLG_Drosophila-associated_flavivirus_7_isolate_Con0316:1.350831,PLLG_Lampyris_noctiluca_flavivirus_1_isolate_17FIN1:1.44068)[&label=100]:0.661351)[&label=47]:0.185973)[&label=100]:0.779794,PLLG_Diaphorina_citri_flavi-like_virus:2.223419)[&label=95]:0.425273)[&label=40]:0.108252,PLLG_Tacheng_tick_virus_8_strain_TCP-2:2.928409)[&label=67]:0.16265)[&label=54]:0.167415)[&label=33]:0.11515,PLLG_Soybean_cyst_nematode_virus_5_strain_ScV5:3.131295)[&label=52]:0.101675,((((((PLPV_Atypical_porcine_pestivirus:0.255559,(PLPV_Bat_pestivirus_BtSk-PestV-1GX2017:0.082297,PLPV_Zikole_virus:0.058504)[&label=100]:0.281357)[&label=100]:0.766602,(PLPV_Frog_pestivirus:1.643386,PLPV_Glass_knifefish_pestivirus:1.769632)[&label=96]:0.446919)[&label=93]:0.418244,((PLPV_Kioloa_rodent_pestivirus_isolate_SD7:0.068524,(PLPV_Norway_rat_pestivirus_isolate_NrPVNYC-D23:0.063114,PLPV_Rodent_pestivirus_isolate_RtNn-PestVHuB2014:0.08411)[&label=74]:0.022755)[&label=100]:0.160919,PLPV_Rodent_pestivirus_isolate_RtAp-PestVJL2014:0.225985)[&label=100]:0.388329)[&label=85]:0.201252,PLPV_Jingmen_Crocidura_shantungensis_pestivirus_1:0.470753)[&label=83]:0.121817,((((PLPV_Linda_virus_strain_Austria1:0.083634,PLPV_Wenzhou_Pipistrellus_abramus_pestivirus_1_isolate_YJB_Pabr:0.103974)[&label=100]:0.066961,PLPV_Porcine_pestivirus_isolate_Bungowannah:0.105027)[&label=100]:0.086052,PLPV_Phocoena_pestivirus_isolate_NS170386:0.189863)[&label=100]:0.124579,(((((PLPV_Dongyang_pangolin_virus_isolate_DYCS:0.042085,PLPV_Pangolin_pestivirus_strain_PPeVBIME3P019Tpangolin2018:0.044898)[&label=44]:0.00806,(PLPV_Pangolin_pestivirus_strain_PPeVBIME1P019Tpangolin2018:0.025674,PLPV_Pestivirus_P182Tpangolin2018:0.017361)[&label=99]:0.017176)[&label=100]:0.021627,(PLPV_Pangolin_pestivirus_strain_PPeVBIME5P141Tpangolin2018:0.046832,PLPV_Pestivirus_P179Tpangolin2018:0.106907)[&label=88]:0.021481)[&label=90]:0.026315,(PLPV_Pangolin_pestivirus_strain_PPeVBIME6P141Tpangolin2018:0.025598,PLPV_Pangolin_pestivirus_strain_PPeVBIME6P226Tpangolin2018:0.017928)[&label=100]:0.039841)[&label=83]:0.017091,PLPV_Pangolin_pestivirus_strain_PPeVBIME7P022Tpangolin2018:0.039712)[&label=100]:0.295241)[&label=90]:0.066181)[&label=74]:0.078432,(((((((PLPV_Border_disease_virus_X818:0.027645,PLPV_Pestivirus_reindeer-1_V60-Krefeld:0.033299)[&label=100]:0.036187,((PLPV_Classical_swine_fever_virus:0.053382,'PLPV_Pestivirus_sp._isolate_ovineIt338710-32017':0.026673)[&label=89]:0.01402,PLPV_Tunisian_small_ruminant_pestivirus_strain_920192007AG:0.047024)[&label=96]:0.020297)[&label=79]:0.016665,(PLPV_Pestivirus_Burdur05-TR:0.020691,PLPV_Pestivirus_strain_Aydin04-TR:0.025465)[&label=100]:0.046118)[&label=100]:0.040373,(PLPV_Bovine_viral_diarrhea_virus_1:0.106909,PLPV_Bovine_viral_diarrhea_virus_2:0.097018)[&label=96]:0.037039)[&label=71]:0.024621,(PLPV_Pestivirus_giraffe-1_H138:0.031278,PLPV_Pestivirus_PG-2:0.027277)[&label=100]:0.073882)[&label=69]:0.022994,((PLPV_Bovine_viral_diarrhea_virus_3_Th04_KhonKaen:0.017075,ANW09737_NS2_3:0.014038)[&label=67]:0.007698,WEC89329_NS2_3:0.037479)[&label=100]:0.065494)[&label=100]:0.150287,PLPV_Pronghorn_antelope_pestivirus:0.253432)[&label=99]:0.076909)[&label=100]:0.476509)[&label=100]:0.979579)[&label=97]:0.785284)[&label=53]:0.172477,FJUN_Hangzhou_flavivirus_3_isolate_YWLFY92:2.288687)[&label=100]:1.357631)[&label=100]:0.404595)[&label=100]:0.080969);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
